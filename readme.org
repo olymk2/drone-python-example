@@ -5,4 +5,14 @@ Very basic plugin, just lists out the environment variables available.
 
 From here you can code what ever you want, the project is mounted to this container.
 
+* Building locally
 
+#+BEGIN_SRC bash
+docker build -t olymk2/drone-python-example .
+#+END_SRC
+
+* Testing locally
+You can run the plugin from docker with the command below, or just run =python example.py= outside the container.
+#+BEGIN_SRC bash 
+docker run drone-python-example
+#+END_SRC
