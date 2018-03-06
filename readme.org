@@ -1,0 +1,8 @@
+#+TITLE: drone python example plugin
+
+
+Very basic plugin, just lists out the environment variables available.
+
+From here you can code what ever you want, the project is mounted to this container.
+
+
